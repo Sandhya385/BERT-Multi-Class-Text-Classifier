@@ -1,4 +1,4 @@
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-link)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://bert-multi-class-text-classifier-dwnpdkqnzu7vnihl8wbdwt.streamlit.app/)
 
 # 🧠 BERT Multi-Class Text Classifier (DBpedia 14)
 
