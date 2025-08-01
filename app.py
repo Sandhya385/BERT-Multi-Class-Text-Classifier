@@ -14,8 +14,8 @@ CLASS_NAMES = [
 # Load model and tokenizer
 @st.cache_resource
 def load_model_and_tokenizer():
-    model = BertForSequenceClassification.from_pretrained("./dbpedia_bert_model_20k_cpu")
-    tokenizer = BertTokenizer.from_pretrained("./dbpedia_bert_model_20k_cpu")
+    model = BertForSequenceClassification.from_pretrained("Sandhya385/dbpedia-bert-model")
+    tokenizer = BertTokenizer.from_pretrained("Sandhya385/dbpedia-bert-model")
     model.eval()
     return model, tokenizer
 
@@ -71,7 +71,7 @@ if st.button("Classify") and user_input.strip():
     **ℹ️ Plot Annotations:**
     - **base value** (left): baseline model output with no input.
     - **f(label)** (right): final prediction score for the chosen class.
-    - Words with **positive SHAP values** increase prediction score, and those with **negative** values decrease it.
+    - Words with **positive SHAP values** increase prediction score (🔴), and those with **negative** values decrease it (🔵).
     - Hover over any word to see its SHAP value.
 
     ⚠️ Only the first 128 tokens are used (longer texts are truncated).
