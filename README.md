@@ -79,3 +79,6 @@ A Streamlit web interface is provided with the following features:
 ├── Text_classifier.ipynb # Full training notebook
 └── README.md
 
+📁 The trained model files (`dbpedia_bert_model_20k_cpu/`) are excluded from GitHub due to file size limits.  
+If needed, they can be shared upon request or hosted via Google Drive.
+
