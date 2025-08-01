@@ -21,7 +21,8 @@ To develop a **high-accuracy**, **interpretable**, and **scalable** text classif
 
 ## 📁 Classes
 
-`Album, Animal, Artist, Athlete, Building, Company, Educational Institution, Film, Means of Transportation, Natural Place, Office Holder, Plant, Village, Written Work`
+`Album, Animal, Artist, Athlete, Building, Company, Educational Institution, Film, Means of Transportation, Natural Place, Office Holder, Plant, Village, 
+Written  Work`
 
 ---
 
