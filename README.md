@@ -73,3 +73,9 @@ A Streamlit web interface is provided with the following features:
 
 ## 📁 Directory Structure
 
+├── app/ # Streamlit app code
+├── sampletexts.txt # Sample test cases
+├── requirements.txt # Dependencies
+├── Text_classifier.ipynb # Full training notebook
+└── README.md
+
