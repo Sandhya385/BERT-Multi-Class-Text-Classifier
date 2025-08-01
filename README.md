@@ -1,3 +1,5 @@
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-link)
+
 # 🧠 BERT Multi-Class Text Classifier (DBpedia 14)
 
 This project implements an end-to-end **multi-class text classification system** using a fine-tuned transformer model (BERT) to categorize short entity descriptions into one of **14 predefined classes** from the DBpedia ontology.
