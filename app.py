@@ -5,6 +5,10 @@ import numpy as np
 from transformers import BertForSequenceClassification, BertTokenizer, TextClassificationPipeline
 import streamlit.components.v1 as components
 
+# UI
+st.set_page_config(page_title="DBPedia BERT Classifier", layout="wide")
+st.title("📚 DBPedia Text Classifier")
+
 CLASS_NAMES = [
     "Company", "Educational Institution", "Artist", "Athlete", "Office Holder",
     "Mean of Transportation", "Building", "Natural Place", "Village", "Animal",
@@ -31,10 +35,6 @@ def predict_proba(texts):
         logits = model(**encodings).logits
     probs = torch.nn.functional.softmax(logits, dim=1)
     return probs.numpy()
-
-# UI
-st.set_page_config(page_title="DBPedia BERT Classifier", layout="wide")
-st.title("📚 DBPedia Text Classifier")
 
 user_input = st.text_area("Enter the text for classification", "Apple is looking at buying U.K. startup for $1 billion")
 
